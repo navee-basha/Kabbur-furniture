@@ -1,0 +1,6 @@
+{
+  "name": "Kabbur Furniture",
+  "description": "Premium furniture showroom in Davangere, Karnataka offering wide collections of wooden sofa sets, modern furniture, center tables, and custom woodwork with honest prices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

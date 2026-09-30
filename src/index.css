@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    
+    /* Core Palette */
+    --color-walnut: #3B2416;
+    --color-oak: #A9743F;
+    --color-linen: #F5EDE0;
+    --color-brass: #B8893C;
+    --color-charcoal: #2A2018;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-charcoal);
+    background-color: var(--color-linen);
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* SVG Realistic Wood Grain & Tactile Textures */
+.texture-walnut {
+  background-color: #2e1a0f;
+  background-image: 
+    radial-gradient(ellipse at 50% 0%, rgba(169, 116, 63, 0.15) 0%, rgba(46, 26, 15, 0.85) 75%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='woodGrain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.02 0.15' numOctaves='3' result='noise'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.15   0 0 0 0 0.08   0 0 0 0 0.04  0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23woodGrain)'/%3E%3C/svg%3E");
+  background-size: cover, 300px 300px;
+}
+
+.texture-oak-light {
+  background-color: #F6EFE5;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.4) 0%, rgba(236, 226, 208, 0.3) 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='lightGrain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.015 0.12' numOctaves='2' result='noise'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.6   0 0 0 0 0.45   0 0 0 0 0.3  0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23lightGrain)'/%3E%3C/svg%3E");
+  background-size: cover, 320px 320px;
+}
+
+.texture-cream-linen {
+  background-color: #F9F4EB;
+  background-image: 
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='linen'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' result='noise'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.4   0 0 0 0 0.3   0 0 0 0 0.2  0 0 0 0.035 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23linen)'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
+}
+
+/* Wood-inlay line & brass details */
+.brass-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(184, 137, 60, 0.5) 25%, rgba(184, 137, 60, 0.9) 50%, rgba(184, 137, 60, 0.5) 75%, transparent 100%);
+}
+
+.brass-border {
+  border: 1px solid rgba(184, 137, 60, 0.25);
+  box-shadow: inset 0 0 0 1px rgba(184, 137, 60, 0.08);
+}
+
+.brass-border-subtle {
+  border: 1px solid rgba(184, 137, 60, 0.2);
+}
+
+/* Smooth craft card transition */
+.craft-card {
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.craft-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px -8px rgba(59, 36, 22, 0.12), 0 4px 10px -3px rgba(59, 36, 22, 0.06);
+}
