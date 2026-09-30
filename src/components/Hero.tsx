@@ -14,7 +14,7 @@ interface HeroProps {
 
 export default function Hero({ onImagePreview }: HeroProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const heroImageSrc = "/src/assets/images/hero-fur.png";
+  const heroImageSrc = "/images/hero-fur.png";
 
   // Editable headline and subtext
   const headline = "Furniture Crafted for Every Home in Davangere";

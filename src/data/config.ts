@@ -78,7 +78,7 @@ export const FURNITURE_COLLECTIONS = [
     title: "Wooden Sofa Sets",
     tagline: "Solid Teak & Walnut Craftsmanship",
     description: "Handcrafted solid wood frames with timeless grain patterns, hand-planed finishes, and high-density supportive cushioning.",
-    image: "/src/assets/images/wooden_sofa_set.png",
+    image: "/images/wooden_sofa_set.png",
     aspect: "4:3",
     tag: "Showroom Favorite"
   },
@@ -87,7 +87,7 @@ export const FURNITURE_COLLECTIONS = [
     title: "Modern Sofas",
     tagline: "Contemporary Comfort & Tailored Lines",
     description: "Curated and sectional living room suites featuring textured woven upholstery and warm tapered hardwood accents.",
-    image: "/src/assets/images/modern_sofa.png",
+    image: "/images/modern_sofa.png",
     aspect: "4:3",
     tag: "Popular Choice"
   },
@@ -96,7 +96,7 @@ export const FURNITURE_COLLECTIONS = [
     title: "Center Tables",
     tagline: "Artisanal Wood with Brass Details",
     description: "Statement coffee tables sculpted from seasoned hardwood with organic natural edge profiles and refined joinery.",
-    image: "/src/assets/images/center_tables.png",
+    image: "/images/center_tables.png",
     aspect: "4:3",
     tag: "Hand-finished"
   },
@@ -105,7 +105,7 @@ export const FURNITURE_COLLECTIONS = [
     title: "Cushions & Accents",
     tagline: "Tactile Linens & Living Accents",
     description: "Earth-toned designer cushions, handcrafted accents, and comfort additions to complete your home living space.",
-    image: "/src/assets/images/accents_sofa.png",
+    image: "/images/accents_sofa.png",
     aspect: "4:3",
     tag: "Curated Textures"
   },

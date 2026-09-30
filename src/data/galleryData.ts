@@ -23,7 +23,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-1",
     title: "Living Suite",
     category: "living",
-    image: "/src/assets/images/living_sofa.png",
+    image: "/images/living_sofa.png",
     aspect: "wide",
     woodType: "Solid Teak & Walnut Finish"
   },
@@ -31,7 +31,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-2",
     title: "Solid Wood Sofa Set",
     category: "living",
-    image: "/src/assets/images/wooden_sofa_set.png",
+    image: "/images/wooden_sofa_set.png",
     aspect: "landscape",
     woodType: "Seasoned Teakwood"
   },
@@ -39,7 +39,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-3",
     title: "Artisanal Walnut Center Table",
     category: "living",
-    image: "/src/assets/images/center_tables.png",
+    image: "/images/center_tables.png",
     aspect: "portrait",
     woodType: "Solid Hardwood & Brass Inlay"
   },
@@ -47,7 +47,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-4",
     title: "6-Seater Royal Teak Dining Suite",
     category: "dining",
-    image: "/src/assets/images/6seter_table.png",
+    image: "/images/6seter_table.png",
     aspect: "wide",
     woodType: "Solid Teakwood"
   },
@@ -55,7 +55,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-5",
     title: "Hand-Sculpted Wooden Rocking Chair",
     category: "accent",
-    image: "/src/assets/images/chair1.png",
+    image: "/images/chair1.png",
     aspect: "portrait",
     woodType: "Curved Hardwood & Cane"
   },
@@ -63,7 +63,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-6",
     title: "Modern Sectional Living Suite",
     category: "living",
-    image: "/src/assets/images/modern_sofa.png",
+    image: "/images/modern_sofa.png",
     aspect: "landscape",
     woodType: "Hardwood Structure & Linen"
   },
@@ -71,7 +71,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-7",
     title: "King Size Solid Teak Bed",
     category: "bedroom",
-    image: "/src/assets/images/bed.png",
+    image: "/images/bed.png",
     aspect: "wide",
     woodType: "Pure Teakwood"
   },
@@ -79,7 +79,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-8",
     title: "Dovetail Wood Joinery Detail",
     category: "woodwork",
-    image: "/src/assets/images/gal_wood_joint_1790606734708.jpg",
+    image: "/images/gal_wood_joint_1790606734708.jpg",
     aspect: "square",
     woodType: "Master Carpenter Joinery"
   },
@@ -87,7 +87,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-9",
     title: "Contemporary Oak Accent Lounge Chair",
     category: "accent",
-    image: "/src/assets/images/chair2.png",
+    image: "/images/chair2.png",
     aspect: "square",
     woodType: "Warm Oak & Textured Linen"
   },
@@ -95,7 +95,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-10",
     title: "Hanging Swing or Indoor Jhula",
     category: "living",
-    image: "/src/assets/images/jula.png",
+    image: "/images/jula.png",
     aspect: "wide",
     woodType: "American Walnut & Brass"
   },
@@ -103,7 +103,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-12",
     title: "Spacious L-Shape Corner Sofa",
     category: "living",
-    image: "/src/assets/images/l_sofa.png",
+    image: "/images/l_sofa.png",
     aspect: "landscape",
     woodType: "Solid Wood Base Suite"
   },
@@ -111,7 +111,7 @@ export const SHOWROOM_GALLERY_IMAGES: GalleryItem[] = [
     id: "img-14",
     title: "Master Carpenter Workshop Custom Works",
     category: "woodwork",
-    image: "/src/assets/images/cat_custom_furniture_1790606347693.jpg",
+    image: "/images/cat_custom_furniture_1790606347693.jpg",
     aspect: "landscape",
     woodType: "Custom Workshop Joinery"
   }
